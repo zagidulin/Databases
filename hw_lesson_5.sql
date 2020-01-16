@@ -1,15 +1,15 @@
 /*1-е задание Операторы, фильтрация, сортировка и ограничение */
 UPDATE users
 SET
-	created_at = now()
+  created_at = now()
 WHERE
-	created_at is NULL;
+  created_at is NULL;
 	
 UPDATE users
 SET
-	updated_at = now()
+  updated_at = now()
 WHERE
-	updated_at is NULL;
+  updated_at is NULL;
 
 
 /*2-е задание Операторы, фильтрация, сортировка и ограничение */
